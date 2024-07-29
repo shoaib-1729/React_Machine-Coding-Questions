@@ -1,0 +1,52 @@
+body{
+    background-color: #212121;
+    color:#fff;
+}
+.container{
+    max-width: 100em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.post-container{
+    width: 100%;
+    height: 20em;
+    display: flex;
+    margin: 1rem;
+    padding: 2rem;
+
+}
+
+img{
+    width: 20%;
+    height: 60%;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.pagination-container{
+     display: flex;
+     width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-btn{
+    background-color: black;
+    max-width: 10em;
+   /* translate: translate-X(vw/2); */
+    margin-right: 1em;
+    font-size: 2em;
+    padding: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* active class for buttons */
+.active{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
