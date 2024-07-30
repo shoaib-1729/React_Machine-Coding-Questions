@@ -1,0 +1,49 @@
+*{
+    background-color: #212121;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+    margin:  1rem;
+}
+
+.container{
+    position: relative;
+    max-width: 60rem;
+    cursor: pointer;
+    padding: 3rem;
+     margin: 0 auto;
+}
+
+img{
+    height: 400px;
+    border-radius: 10px;
+    width: 100%
+}
+
+
+.left-btn, .right-btn{
+    position: absolute;
+    background-color: black;
+   cursor: pointer;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    top: 50%;
+}
+
+.left-btn{
+    left: 4rem;
+
+}
+
+.right-btn{
+    right: 4rem;
+    /* top: 50%; */
+
+}
+
